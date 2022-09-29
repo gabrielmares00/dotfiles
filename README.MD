@@ -1,11 +1,9 @@
 Most of these are copied from [here](https://github.com/khyrthy/dotfiles), with some personal spin-ups
 
 ### Preview
----
 ![Preview](Preview.png)
 
 ## System Information
----
 - Distro: Arch Linux
 - Window Manager: BSPWM
 - Termianl: URxvt
@@ -13,5 +11,4 @@ Most of these are copied from [here](https://github.com/khyrthy/dotfiles), with 
 - Clock: Peaclock
 
 ### Theme
----
 Main theme and color schemes of the dotfiles is based on [Gruvbox](https://github.com/morhetz/gruvbox)
