@@ -36,7 +36,7 @@
 *color15: #ebdbb2
 
 URxvt.scrollBar: false
-URxvt.font: xft:Iosevka SS05 Extended:style=Regular:size=12:antialias=True
+URxvt.font: xft:Iosevka Term:style=Extended:size=14:antialias=true:hinting=true
 
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
