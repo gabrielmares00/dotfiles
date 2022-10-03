@@ -8,7 +8,7 @@ super + shift + w
 super + shift + r
 	bspc wm -r
 
-# Move focus
+# Move focus
 super + {Left,Right,Up,Down}
 	bspc node -f {west,east,north,south}
 
@@ -17,11 +17,11 @@ super + shift + {Left,Right,Up,Down}
 	bspc node -s {west,east,north,south}
 
 # Change desktop
-super + {1,2,3,4,5}
-	bspc desktop -f {1,2,3,4,5}
+super + {1,2,3,4,5,6,7,8,9,0}
+	bspc desktop -f {1,2,3,4,5,6,7,8,9,0}
 
-super + shift + {1,2,3,4,5}
-	bspc node -d {1,2,3,4,5}
+super + shift + {1,2,3,4,5,6,7,8,9,0}
+	bspc node -d {1,2,3,4,5,6,7,8,9,0}
 
 # Change window state
 super + {f,shift + f,t}
@@ -39,11 +39,11 @@ super + p
 super + semicolon
 	rofi -show emoji -modi emoji
 
-# Start a terminal
+# Start a terminal
 super + Return
 	urxvt
 
-# Increse/Decrease sound level
+# Increse/Decrease sound level
 XF86AudioRaiseVolume
 	pactl set-sink-volume @DEFAULT_SINK@ +5%
 XF86AudioLowerVolume
@@ -67,15 +67,15 @@ XF86MonBrightnessDown
 
 # Move or resize
 
-# Expand a window
+# Expand a window
 super + ctrl + {Left,Right,Up,Down}
 	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
 
-# Contract a window
+# Contract a window
 super + ctrl + shift + {Right,Left,Down,Up}
 	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
 
-# Move a floating window
+# Move a floating window
 super + {Left,Right,Up,Down}
 	bspc node -v {-20 0,20 0,0 -20,0 20}
 
